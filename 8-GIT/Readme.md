@@ -58,7 +58,7 @@ git commit -m "<add your commit message here>"
 ```bash
 git push
 ```
-5. pull from the remote repo
+5. Pull from the remote repo
 ```bash
 git pull 
 ```
