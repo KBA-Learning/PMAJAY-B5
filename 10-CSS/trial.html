@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="STYLECSS/style.css" /> -->
+    <title>Document</title>
+    <style>
+      .coloumn {
+        width: 32%;
+        height: 280px;
+        float: left;
+        padding: 5px;
+        border-left: 1px solid #9bcf53;
+      }
+      .a {
+        justify-content: center;
+        text-align: center;
+        font-size: small;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        line-height: 20px;
+      }
+      img:hover {
+        opacity: 0.5;
+      }
+      @media only screen and (max-width:900px) {
+    .coloumn {
+      width: 100%;
+    }
+    li {
+        float: left;
+    }
+   p.c{
+    font-size: medium;
+   }
+    
+   li.a{
+    font-size: 14px;
+   }
+   p.b{
+    font-size:15px ;
+    
+   }
+}
+   @media only screen and (max-width:900px) {
+    
+   
+      p.c{
+          font-size:small;
+          font-family: Arial, Helvetica, sans-serif;
+          
+          
+      }
+      .image{
+        float: none;
+      }
+  
+  }
+
+    </style>
+  </head>
+  <body style="background-color: #ffffff">
+    <h1>Courses</h1>
+    <div class="coloumn">
+      <img src="images/DEB.jpeg" width="280px" height="150px" />
+      <p class="a">
+        <span style="font-size: larger; font-weight: bold"
+          >Developer Essentials for Blockchain </span
+        ><br />Strong programming skills in at least one popular language, such
+        as Java or Python. Knowledge of cryptography and data structures (like
+        linked lists and arrays). Good understanding of networking concepts
+        (like TCP/IP and DNS) and how it works.
+      </p>
+    </div>
+    <div class="coloumn">
+      <img src="images/CBA.jpeg" height="150px" width="280px" />
+      <p class="a">
+        <span style="font-size: larger; font-weight: bold"
+          >Certified Blockchain Architect </span
+        ><br />
+        To become a successful Blockchain architect, you need to have a strong
+        understanding of Blockchain technology, cryptography, distributed
+        systems, smart contracts. You must also master programming languages
+        like Solidity and Java..
+      </p>
+    </div>
+    <div class="coloumn">
+      <img src="images/CED.jpeg" height="150px" width="280px" />
+      <p class="a">
+        <span style="font-size: larger; font-weight: bold"
+          >Certified Ethereum Developer </span
+        ><br />
+        To become an Ethereum developer, start by grasping blockchain
+        fundamentals and diving into Ethereum specifics. Develop proficiency in
+        key programming languages, including Solidity, JavaScript, and Python.
+        Create, deploy, and experiment with smart contracts using tools like
+        Remix and Truffle.
+      </p>
+    </div>
+  </body>
+</html>
