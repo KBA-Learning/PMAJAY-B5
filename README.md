@@ -8,3 +8,6 @@ https://classroom.github.com/a/JWkx6Rey
 
 ## HTML EXAM LINK
 https://forms.gle/wupfk7ZoUuMRPxvt8
+
+## CSS ASSIGNMENT LINK
+https://classroom.github.com/a/lt9zh_6Q
