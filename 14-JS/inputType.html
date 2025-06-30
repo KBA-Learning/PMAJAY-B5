@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="feedback">
+
+    </div>
+    <script>
+        let div1 = document.createElement("div");
+        let element = document.createElement("input");
+        element.type = 'radio';
+        element.name='feed';
+        element.value='good';
+        let lab1 = document.createElement("label");
+        lab1.innerHTML="Good"
+        div1.appendChild(element)
+        div1.appendChild(lab1);
+        
+        let div2 = document.createElement("div");
+         let element1 = document.createElement("input");
+        element1.type = 'radio';
+        element1.name='feed';
+        element1.value='average';
+         let lab2 = document.createElement("label");
+        lab2.innerHTML="Average"
+        div2.appendChild(element1)
+        div2.appendChild(lab2);
+
+        let div3 = document.createElement("div");
+         let element2 = document.createElement("input");
+        element2.type = 'radio';
+        element2.name='feed';
+        element2.value='bad';
+         let lab3 = document.createElement("label");
+        lab3.innerHTML="Bad"
+        div3.appendChild(element2)
+        div3.appendChild(lab3); 
+
+        const ele = document.getElementById("feedback");
+        ele.appendChild(div1)
+        ele.appendChild(div2)
+        ele.appendChild(div3)
+    </script>
+</body>
+</html>
