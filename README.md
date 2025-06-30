@@ -12,5 +12,8 @@ https://forms.gle/wupfk7ZoUuMRPxvt8
 ## CSS ASSIGNMENT LINK
 https://classroom.github.com/a/lt9zh_6Q
 
-## CSS EXAM LINK
+## CSS & TAILWIND EXAM LINK
 https://forms.gle/GS1ijfxyHopee7uW6
+
+## TAILWIND ASSIGNMENT LINK
+https://classroom.github.com/a/o_-7wUcD
