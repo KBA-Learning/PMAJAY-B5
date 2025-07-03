@@ -9,7 +9,7 @@ JS program to remove an element pesent in a specific location
 JS program to copy an element in an aaray to another array
 
 Print the pattern
-
+```
 1
 2 2
 3 3 3
@@ -21,6 +21,7 @@ Print the pattern
 1 1 1
 2 2
 3
+```
 
 JS program to read array a=[20,25,30,35,40,45] and divide the array in to two seperate arrays having equal number of elements.
 
