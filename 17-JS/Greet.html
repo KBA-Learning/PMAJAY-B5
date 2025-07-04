@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Functions: Introduction</title>
+</head>
+<body>
+    <h1>Example Function</h1>
+    <h1>Inspect to see the output</h1>
+    <script>
+        //function definition
+        function greet(name){
+            console.log('Hello, '+name);
+        }
+
+        //function call
+        greet('World');
+
+        function add(a,b){ //addition
+            return a+b;
+        }
+
+        function sub(a,b){ //subtract
+            return a-b;
+        }
+
+        function mul(a,b){ //multiply
+            return a*b;
+        }
+        function div(a,b){ //divide
+            return a/b;
+        }
+//function calls below
+        let sum = add(5,10);
+        let diff = sub(10,5);
+        let quot = div(10,5);
+        let prod = mul(10,10);
+//console log outputs
+        console.log('Sum is: ', sum);
+        console.log('Diifernce is: ', diff);
+        console.log('Quotient is: ', quot);
+        console.log('Product is: ', prod);
+    </script>
+</body>
+</html>
