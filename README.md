@@ -17,3 +17,6 @@ https://forms.gle/GS1ijfxyHopee7uW6
 
 ## TAILWIND ASSIGNMENT LINK
 https://classroom.github.com/a/o_-7wUcD
+
+## Project Link
+https://classroom.github.com/a/7cjAzvOc
