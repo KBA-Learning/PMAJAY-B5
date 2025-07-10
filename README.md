@@ -20,3 +20,6 @@ https://classroom.github.com/a/o_-7wUcD
 
 ## Project Link
 https://classroom.github.com/a/7cjAzvOc
+
+## JS Assignment Link
+https://docs.google.com/document/d/1SBno_idrZUgLqnmVpO-F3rybXX9Ng0LmGZwzSiTLA1g/edit?usp=sharing
