@@ -26,3 +26,7 @@ https://classroom.github.com/a/7cjAzvOc
 
 ## JS Assignment Link
 https://docs.google.com/document/d/1SBno_idrZUgLqnmVpO-F3rybXX9Ng0LmGZwzSiTLA1g/edit?usp=sharing
+
+## Node.js Exam Link
+
+https://docs.google.com/document/d/17TOFdeumcB_ZS7F1q20Ewwr5_yJr2CSIq4V5Ta08W3E/edit?usp=sharing
