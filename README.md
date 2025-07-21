@@ -9,6 +9,9 @@ https://classroom.github.com/a/JWkx6Rey
 ## HTML EXAM LINK
 https://forms.gle/wupfk7ZoUuMRPxvt8
 
+## JavaScript EXAM LINK
+https://docs.google.com/document/d/13BaA3Gdkxgv0_vEV2XsvbiJd_xeu6RMDHLUdJ5iODsE/edit?usp=sharing
+
 ## CSS ASSIGNMENT LINK
 https://classroom.github.com/a/lt9zh_6Q
 
