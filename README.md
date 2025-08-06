@@ -21,6 +21,9 @@ https://forms.gle/GS1ijfxyHopee7uW6
 ## TAILWIND ASSIGNMENT LINK
 https://classroom.github.com/a/o_-7wUcD
 
+## Javascript Assignment Link
+https://classroom.github.com/a/L5ho4o5v
+
 ## Project Link
 https://classroom.github.com/a/7cjAzvOc
 
