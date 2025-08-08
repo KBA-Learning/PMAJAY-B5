@@ -34,7 +34,7 @@ Perform CRUD Operations
 `` db.myCollection.updateMany({ age: { $lt: 30 } },{ $set: { status: "young" } })``
 
 ``
-db.userdetails.updateMany({userName:"Anu"},{$set:{age:"30",empid:"emp_08"}})
+db.myCollection.updateMany({userName:"John Doe"},{$set:{age:"30",empid:"emp_08"}})
 ``
 
 ``db.myCollection.deleteOne({ name: "Mike Smith" })``
