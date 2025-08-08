@@ -21,28 +21,27 @@ To enter into the mongodb shell (Press ctl+c and  type the following commands)
 
 Perform CRUD Operations
 
-``db.collection1.insertOne()``
+``db.myCollection.insertOne({ name: "John Doe", age: 29, city: "New York" })``
 
-``db.collection1.insertMany([])``
+``db.myCollection.insertMany([{ name: "Jane Doe", age: 25, city: "Los Angeles" },{ name: "Mike Smith", age: 32, city: "Chicago" }])``
 
-``db.collection1.findOne()``
+``db.myCollection.findOne({ name: "John Doe" })``
 
-``db.collection1.find()``
+``db.myCollection.find({ age: { $gt: 25 } })``
 
-``db.collection1.updateOne({key:value},{$set:{key:value}})``
+``db.myCollection.updateOne({ name: "John Doe" },{ $set: { city: "San Francisco" } })``
 
-``db.collection1.deleteOne()``
+`` db.myCollection.updateMany({ age: { $lt: 30 } },{ $set: { status: "young" } })``
 
-``db.collection1.deleteMany({ age: { $gt: 30 } })``
+``
+db.userdetails.updateMany({userName:"Anu"},{$set:{age:"30",empid:"emp_08"}})
+``
 
-``db.collection1.find({$or:[{age:{$gt:30}},{age:{$gte:30}}]})``
+``db.myCollection.deleteOne({ name: "Mike Smith" })``
 
-```
-db.collection1.updateMany(
-  { age: { $lt: 30 } },
-  { $set: { status: "young" } }
-)
-```
+``db.myCollection.deleteMany({ age: { $gt: 30 } })``
+
+
 To stop Mongodb
 
 ``sudo systemctl stop mongod``
