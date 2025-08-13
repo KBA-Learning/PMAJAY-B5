@@ -89,7 +89,7 @@ admin.delete('/deleteCourse',async (req,res)=>{
 try{
   const {CourseName} = req.body;
   if(await Course.findOne({courseName:CourseName})){
-    await Course.find({courseName:CourseName})
+    await Course.findOneAndDelete({courseName:CourseName})
     res.status(200).json({msg:'Course deleted succesfully'})
   }
   else{
