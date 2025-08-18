@@ -24,6 +24,9 @@ https://classroom.github.com/a/o_-7wUcD
 ## Javascript Assignment Link
 https://classroom.github.com/a/L5ho4o5v
 
+## Backend Exam Link
+https://docs.google.com/document/d/1ttpFBXlHhGFSmc8l50AiuJJ_txj1EeX1b8dj5Fl2SV4/edit?usp=sharing
+
 ## Project Link
 https://classroom.github.com/a/7cjAzvOc
 
