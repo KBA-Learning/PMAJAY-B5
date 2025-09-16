@@ -98,7 +98,7 @@ const EditCoursePage = () => {
                   type="text"
                   className="border rounded w-full py-2 px-3 mb-2"
                   value={courseId}
-                  onchange={(e)=> setCourseId(e.target.value)}
+                  onChange={(e)=> setCourseId(e.target.value)}
                   required
                 />
               </div>
@@ -112,7 +112,7 @@ const EditCoursePage = () => {
                 </label>
                 <select
                   value={courseType}
-                  onchange={(e)=> setCourseType(e.target.value)}
+                  onChange={(e)=> setCourseType(e.target.value)}
                   className="border rounded w-full py-2 px-3"
                   required
                 >
@@ -131,7 +131,7 @@ const EditCoursePage = () => {
                 </label>
                 <textarea
                   value={description}
-                  onchange={(e)=> setDescription(e.target.value)}
+                  onChange={(e)=> setDescription(e.target.value)}
                   className="border rounded w-full py-2 px-3"
                   rows="4"
                 
@@ -147,13 +147,13 @@ const EditCoursePage = () => {
                 </label>
                 <select
                   value={price}
-                  onchange={(e)=> setPrice(e.target.value)}
+                  onChange={(e)=> setPrice(Number(e.target.value))}
                   className="border rounded w-full py-2 px-3"
                   required
                 >
-                  <option value="Rs.5000">Rs.5000</option>
-                  <option value="Rs.3500">Rs.3500</option>
-                  <option value="Rs.15000">Rs.15000</option>
+                  <option value={5000}>Rs.5000</option>
+                  <option value={3500}>Rs.3500</option>
+                  <option value={15000}>Rs.15000</option>
                 </select>
               </div>
 

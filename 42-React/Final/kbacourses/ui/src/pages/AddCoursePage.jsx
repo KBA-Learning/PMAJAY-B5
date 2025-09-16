@@ -5,7 +5,7 @@ const AddCoursePage = () => {
   const [courseId, setCourseId] = useState("")
   const [courseType, setCourseType] = useState("Self-Paced")
   const [description, setDescription] = useState("")
-  const [price, setPrice] = useState("")
+  const [price, setPrice] = useState(5000)
   const [courseImage, setCourseImage] = useState(null)
 
   const handleSubmit = async (e) => {
@@ -127,13 +127,13 @@ const AddCoursePage = () => {
                 </label>
                 <select
                   value={price}
-                  onChange={(e) => setPrice(e.target.price)}
+                  onChange={(e) => setPrice(Number(e.target.value))}
                   className="border rounded w-full py-2 px-3"
                   required
                 >
-                  <option value="Rs.5000">Rs.5000</option>
-                  <option value="Rs.3500">Rs.3500</option>
-                  <option value="Rs.15000">Rs.15000</option>
+                  <option value={5000}>Rs.5000</option>
+                  <option value={3500}>Rs.3500</option>
+                  <option value={15000}>Rs.15000</option>
                 </select>
               </div>
 
