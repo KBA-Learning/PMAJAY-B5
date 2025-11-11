@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { createWalletClient,custom } from "viem";
-import { hardhat } from "viem/chains";
+import { hardhat,hoodi } from "viem/chains";
 import { writeContract,readContract } from "viem/actions";
 import cert from './assets/Cert.json';
 
@@ -14,9 +14,10 @@ export default function App(){
                                          })
   const [addr,setAddr] = useState(null)
   const [ID,setId] = useState()
+  const [output,setOutput]= useState('')
 
   const client = createWalletClient({        //we created a client for communicating with blockchain
-    chain: hardhat,
+    chain: hoodi,
     transport:custom(window.ethereum)
   })
 
@@ -55,13 +56,19 @@ export default function App(){
   }
 
   async function viewCertificate(){
-    const txDeatails = await readContract(client,{
+    console.log(ID);
+    
+    const txDetails = await readContract(client,{
       address:cert.ContractAddress,
       abi:cert.abi,
       functionName:"Certificates",
       args:[ID],
       account:addr
     })
+
+    console.log(txDetails[0]);
+
+    setOutput(`Name:${txDetails[0]},Course:${txDetails[1]},Grade:${txDetails[2]},Date:${txDetails[3]}`)
   }
 
   return(
@@ -97,9 +104,11 @@ export default function App(){
       <p className='font-bold m-4'>View Cetificate</p>
       <div className='flex '>
         <p className='mr-2'>Enter Certificate Id :</p>
-        <input className='border border-black m-4' type="text" id="cid" name="cid"/>
+        <input className='border border-black m-4' type="text" id="cid" name="cid" onChange={getId}/>
         <input className='bg-sky-500 rounded-full p-2' type="button" value="View" onClick={viewCertificate}/>
+       
       </div>
+       <p>{output}</p>
     </div>
     </div>
   )
