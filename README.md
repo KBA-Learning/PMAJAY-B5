@@ -37,6 +37,9 @@ https://classroom.github.com/a/7cjAzvOc
 ## JS Assignment Link
 https://docs.google.com/document/d/1SBno_idrZUgLqnmVpO-F3rybXX9Ng0LmGZwzSiTLA1g/edit?usp=sharing
 
+## Ethereum Project Topics
+https://classroom.github.com/a/JB9wKw9X
+
 ## Ethereum Assignmnet
 https://classroom.github.com/a/CqhUB_M8
 
